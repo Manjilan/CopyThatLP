@@ -1,0 +1,35 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  border-radius: 19px;
+  width: 150px;
+  height: 38px;
+  color: #A152DE;
+  border: 1px solid #A152DE;
+}
+.logo{
+  width: 180px;
+}
+.header-image{
+  width: 62%;
+}
+header{
+  display: flex;
+}
+h1{
+  text-transform: uppercase;
+}
+h1 span{
+  color: #A152DE;
+}
+input{
+  width: 384px;
+  height: 38px;
+  border-radius: 29px;
+}
+.what{
+  background: transparent linear-gradient(102deg, #A062A8 0%, #9666AB 51%, #7D61AA 100%) 0% 0% no-repeat padding-box;
+  color: white;
+}
