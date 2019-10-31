@@ -1,6 +1,34 @@
+@font-face {
+  font-family: Geomanist;
+  src: url("./assets/Geomanist");
+}
+body{
+  font-family: Geomanist;
+  margin: 0 auto;
+}
 a{
   text-decoration: none;
   color: black;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1px solid #707070;
+  padding: 10px 30px;
+}
+nav a {
+  font-family: Helvetica Neue, san-serif;
+}
+
+nav div{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav div button{
+  font-size: 14px;
 }
 button{
   border-radius: 19px;
@@ -9,6 +37,8 @@ button{
   color: #A152DE;
   border: 1px solid #A152DE;
 }
+
+
 .logo{
   width: 180px;
 }
@@ -32,4 +62,15 @@ input{
 .what{
   background: transparent linear-gradient(102deg, #A062A8 0%, #9666AB 51%, #7D61AA 100%) 0% 0% no-repeat padding-box;
   color: white;
+}
+footer{
+  background: black;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 3%;
+}
+footer img{
+  margin: 0 2%;
 }
