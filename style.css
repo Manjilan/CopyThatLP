@@ -1,6 +1,6 @@
 @font-face {
   font-family: Geomanist;
-  src: url("./assets/Geomanist");
+  src: url("./assets/Geomanist/Geomanist-Regular.otf");
 }
 body{
   font-family: Geomanist, Raleway;
@@ -33,6 +33,10 @@ nav div{
   justify-content: space-around;
   align-items: center;
 }
+.clear, .mc-field-group{
+  display: inline-block;
+  margin: 0;
+}
 nav div button{
   font-size: 14px;
 }
@@ -53,7 +57,7 @@ header p{
   line-height: 40px;
   width: 80%;
 }
-header input, .contact-input{
+header input, .contact-input, #mce-EMAIL{
   text-align: center;
   font-size: 1.1rem;
   font-family: Geomanist;
@@ -62,13 +66,17 @@ header input, .contact-input{
   height: 58px;
   box-sizing: border-box;
 }
-button{
+button, #mc-embedded-subscribe{
   background: #A056DE 0% 0% no-repeat padding-box;
   border-radius: 29px;
   color: white;
   font-size: 1.1rem;
   height: 58px;
   margin: 0 2%;
+  display: inline;
+}
+.clear{
+  color: white;
 }
 .logo{
   width: 180px;
@@ -92,6 +100,7 @@ input{
   width: 384px;
   height: 38px;
   border-radius: 29px;
+  display: inline;
 }
 .what{
   background: transparent linear-gradient(102deg, #A062A8 0%, #9666AB 51%, #7D61AA 100%) 0% 0% no-repeat padding-box;
@@ -199,7 +208,7 @@ p{
   height: 25%;
 }
 .col h3{
-  height: 5%;
+  height: 3%;
 }
 .release{
   text-align: center;
@@ -209,6 +218,9 @@ h3{
 }
 .contact{
   margin: 0 2% 5% 2%;
+}
+footer{
+  margin-top: 5%;
 }
 @media only screen and (max-width: 600px) {
   header, .what, .row{
